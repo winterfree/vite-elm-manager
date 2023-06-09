@@ -1,0 +1,22 @@
+$blue: #409EFF;  
+$bc: #e4e4e4;
+$fc: #fff;
+
+// flex 布局和 子元素 对其方式
+@mixin fj($type: space-between) {
+	display: flex;
+	justify-content: $type;
+}
+
+// 文字超出一定长度省略
+@mixin ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+//字体大小，颜色
+@mixin sc($size, $color){
+	font-size: $size;
+	color: $color;
+}

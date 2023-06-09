@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "code": 0,
+  "msg": "ok",
+  "data": {
+    "search_user": [
+      140, 232, 101, 264, 90, 340, 250
+    ],
+    "search_nums": [
+      120, 282, 111, 234, 220, 340, 310
+    ],
+    "search_total": "23,378",
+    "search_vol": "33,378"
+  }
+}
